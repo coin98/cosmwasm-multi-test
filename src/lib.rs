@@ -15,6 +15,7 @@ pub mod error;
 mod executor;
 mod gov;
 mod ibc;
+mod mock;
 mod module;
 mod prefixed_storage;
 mod staking;

@@ -27,6 +27,8 @@ prost = "0.9"
 anyhow = "1.0.41"
 thiserror = "1.0"
 derivative = "2"
+bech32 = "0.9.1"
+cosmwasm-crypto = "1.2"
 
 # We don't use the following dependencies directly. They're dependencies of our dependencies.
 # We specify them to tighten their version requirements so that builds with `-Zminimal-versions` work.
